@@ -1,0 +1,33 @@
+# Uploads and user data
+uploads/contracts/*
+!uploads/contracts/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/*
+!tmp/.gitkeep
+
+# Environment files
+.env
+config/database.local.php
+
+# Node modules (if using any build tools)
+node_modules/
+
+# Composer
+vendor/
+composer.lock
